@@ -1,0 +1,39 @@
+mandate table
+1. mandateId
+2. messageId
+3. contractReference
+4. clientReference
+5. initiationDate
+6. collectionAmount
+7. collectionDate
+8. debtor_id
+9. DebtorAuthType
+
+Debtor table
+1.firstNames
+2.Surname
+3.IdNumber
+4.EmailAddress
+5.CellphoneNumber
+
+
+
+Bank Details
+1.IdNumber
+2.AccountNumber
+3.BranchCode
+4.BankName
+
+
+Mandate Types
+1.DebtorAuthId
+2.Description
+
+
+Bank Response
+1.Message_id
+2.BankServResponseCode
+3.BankServeRespDate
+4.DebtorBankResponseCode
+5.DebtorRespDate
+6.ResponseType (pain12,confirmation,rejection etc)
